@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/languagesRowId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/languageNameId"
+        android:text="English Name"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+         />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/nativeNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Native Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+</LinearLayout>

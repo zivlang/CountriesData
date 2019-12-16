@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.countriesdata"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:9:5-38:19
+16        android:allowBackup="true"
+16-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\97254\.gradle\caches\transforms-2\files-2.1\65dd35f103f68a57c41d59facf99df05\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:13:9-41
+21        android:requestLegacyExternalStorage="true"
+21-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:17:9-52
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:16:9-40
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:11:9-44
+27        <activity android:name="com.example.countriesdata.activities.MainActivity" >
+27-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:18:9-24:20
+27-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:18:19-58
+28            <intent-filter>
+28-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:20:17-69
+29-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:22:17-77
+31-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.example.countriesdata.activities.ListActivity" >
+34-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:25:9-30:20
+34-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:25:19-58
+35
+36            <!-- Default Intent Filter -->
+37            <intent-filter>
+37-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:27:13-29:29
+38                <action android:name="android.intent.action.DEFAULT" />
+38-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:28:17-72
+38-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:28:25-69
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.example.countriesdata.activities.CountryActivity" >
+41-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:31:9-36:20
+41-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:31:19-61
+42
+43            <!-- Default Intent Filter -->
+44            <intent-filter>
+44-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:27:13-29:29
+45                <action android:name="android.intent.action.DEFAULT" />
+45-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:28:17-72
+45-->C:\Users\97254\StudioProjects\CountriesData\app\src\main\AndroidManifest.xml:28:25-69
+46            </intent-filter>
+47        </activity>
+48    </application>
+49
+50</manifest>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="permission_necessary">Download Permission</string>
+    <string name="storage_permission_is_necessary_to_wrote_event">Storage access permission is needed</string>
+    <string name="app_name">CountriesData</string>
+</resources>
