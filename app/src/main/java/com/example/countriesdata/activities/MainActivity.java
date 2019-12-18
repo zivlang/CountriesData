@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
     AsyncTask<String, String, String> downloadOrGetFile;
 
-    private boolean permissionResult;
     private static final int PERMISSION_REQUEST_CODE = 200;
     private String fileName = "countries.json";
     private String appName = "CountriesData";
@@ -66,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
         if (hasPermission) {
             downloadOrGetFile = new DownloadOrGetFile().execute();
         }
-
     }
 
     public static boolean hasPermissions(Context context, String... permissions) {

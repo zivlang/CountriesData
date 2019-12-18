@@ -9,9 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.countriesdata.model.Currencies;
 import com.example.countriesdata.model.Currency;
-import com.example.countriesdata.model.Language;
 
 import java.util.ArrayList;
 import java.util.List;
